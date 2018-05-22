@@ -1,0 +1,87 @@
+<resources>
+    <string name="permission_rationale">Contacts permissions are needed for providing email
+    completions.</string>
+    <string name="app_name">CashCulator</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+
+    <string name="menu_about">About CashCulator</string>
+    <string name="minus">minus</string>
+    <string name="confirm_delete_calculation">Are you sure you want to delete this calculation?</string>
+    <string name="new_calculation">New Calculation</string>
+    <string name="calculation_title">Event/Trip Title:</string>
+    <string name="calculation_currency">Currency Denomination:</string>
+    <string name="calculation_persons">Persons</string>
+
+    <string name="no_expenses">No Expenses</string>
+    <string name="date_range_format">%1$s to %2$s</string>
+    <string name="expenses_summary_format">%1$d expenses, %2$s total</string>
+    <string name="plus">New Expense</string>
+    <string name="manage_currencies">Manage Currencies</string>
+    <string name="calculation_summary">Summary</string>
+    <string name="export_calculation">Export</string>
+    <string name="group_by_person">Group by Person</string>
+    <string name="group_by_date">Group by Date</string>
+
+    <string name="additional_currencies">Additional Currencies:</string>
+    <string name="add_currency">Add Currency</string>
+    <string name="equals">=</string>
+
+    <string name="new_expense">New Expense</string>
+    <string name="edit_expense">Edit Expense</string>
+    <string name="expense_title">Title:</string>
+    <string name="expense_title_friend">Friend:</string>
+    <string name="phone_friend">Phone Number:</string>
+    <string name="expense_payer">Payer:</string>
+    <string name="expense_payer_prompt">Who paid?</string>
+    <string name="expense_amount">Amount:</string>
+    <string name="expense_date">Date:</string>
+    <string name="custom_split">Custom Split</string>
+
+    <string name="summary">Summary</string>
+    <string name="first_date">First Date:</string>
+    <string name="last_date">Last Date:</string>
+    <string name="duration">Duration:</string>
+    <string name="num_expenses">Expenses:</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="expenses_consumption">Expenses/Consumption</string>
+    <string name="day_format">%d day</string>
+    <string name="days_format">%d days</string>
+
+    <string name="validate_required">This field is required.</string>
+    <string name="validate_min_names">Please enter at least %d names.</string>
+    <string name="validate_duplicate_name">This name is not unique.</string>
+    <string name="validate_number">Please enter a positive number.</string>
+    <string name="validate_select_split_persons">Please select at least one person below.</string>
+
+    <string name="export_success">Successfully exported to %s.</string>
+    <string name="export_error_no_permission">No permission to write to external storage.</string>
+    <string name="export_error_mkdir">Failed to create directory %s.</string>
+    <string name="export_error_no_free_file">Failed to find an unused file name.</string>
+    <string name="export_error_write_failed">Error writing to %s:</string>
+
+    <string name="about_copyright">Copyright (C) 2012-2016 Ingo van Lil</string>
+    <string name="about_copyright_icons">Icons created by <a href="http://www.visualpharm.com">VisualPharm</a>,used under a <a href="http://creativecommons.org/licenses/by-nd/3.0/">Creative Commons CC BY-ND 3.0</a> license.</string>
+    <string name="about_apache_licence_text">Licensed under the Apache License, Version 2.0 (the \"License\"). You may not use this program except in compliance with the License.</string>
+    <string name="about_apache_licence_copy">You may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>.</string>
+    <string name="about_copyright_sources"><a href="https://github.com/inguin/moneybalance">https://github.com/inguin/moneybalance</a></string>
+    <string name="about_version_number">%1$s version #%2$s (build %3$d)
+    </string>
+
+    <string name="drawer_open">1</string>
+    <string name="drawer_close">0</string>
+</resources>

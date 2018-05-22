@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#F5F5F5"
+    android:orientation="vertical" >
+<!--
+    <ImageView
+        android:id="@+id/about_appicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:src="@drawable/coins" />
+        -->
+
+    <TextView
+        android:id="@+id/about_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/about_version_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/about_source"
+        android:text=""
+        android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/about_icons"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/about_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This app has been created by us as a part of our winter training project.The app facilitates splitting and managing of money between a group of people. "
+
+
+        android:textColor="#0F4D92"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/about_licence_copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="8dp"
+        android:textColor="#444444"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

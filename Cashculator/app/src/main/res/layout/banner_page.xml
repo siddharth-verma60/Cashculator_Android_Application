@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8EAF6">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingTop="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Welcome to CashCulator"
+        android:textColor="#0F4D92"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+
+
+        <TextView
+        android:id="@+id/name_banner"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="name!"
+        android:textColor="#0F4D92"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What would you like to do ?"
+            android:textColor="#0F4D92"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="25dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="115dp"
+        android:backgroundTint="#1A237E"
+        android:textColor="#E8EAF6"
+        android:text="Create an event expense"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/choose_event"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="115dp"
+        android:backgroundTint="#1A237E"
+        android:textColor="#E8EAF6"
+        android:text="Create an apartment expense"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/choose_apartment"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/button"
+        />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Home"
+        android:textSize="20dp"
+        android:backgroundTint="#1A237E"
+        android:textColor="#E8EAF6"
+        android:id="@+id/home"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/button2" />
+        </LinearLayout>
+
+
+</ScrollView>
